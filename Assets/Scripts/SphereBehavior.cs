@@ -28,7 +28,7 @@ public class SphereBehavior : MonoBehaviour
         }
     }
 
-    void OnSphereClicked(SphereBehavior clickedSphere)
+    private void OnSphereClicked(SphereBehavior clickedSphere)
     {
         if (!isTarget && clickedSphere.colorName.Equals(colorName) )
         {
@@ -41,7 +41,7 @@ public class SphereBehavior : MonoBehaviour
         }
     }
 
-    void StopMoving()
+    private void StopMoving()
     {
         inMotion = false;
         isGameLost = true;

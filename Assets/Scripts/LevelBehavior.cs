@@ -39,7 +39,7 @@ public class LevelBehavior : MonoBehaviour
         }
     }
 
-    public void RestartLevel()
+    private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -49,7 +49,7 @@ public class LevelBehavior : MonoBehaviour
         transform.parent.Find("WinLoseText").gameObject.GetComponent<TMP_Text>().text = "You Lose!";
     }
 
-    public void DisplayWinText()
+    private void DisplayWinText()
     {
         transform.parent.Find("WinLoseText").gameObject.GetComponent<TMP_Text>().text = "You Win!";
     }
@@ -63,7 +63,7 @@ public class LevelBehavior : MonoBehaviour
         }
     }
 
-    public void GoToNextLevel()
+    private void GoToNextLevel()
     {
         int currSceneIndex =  int.Parse(SceneManager.GetActiveScene().name.Remove(0, 5)); //Removes the word 'Scene' from the scene name thus getting its index
         SceneManager.LoadScene("Scene" + (currSceneIndex + 1));
