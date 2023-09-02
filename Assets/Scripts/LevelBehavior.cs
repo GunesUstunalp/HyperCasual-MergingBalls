@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelBehavior : MonoBehaviour
 {
-    public Dictionary<String, int> colorAndCountDict = new Dictionary<string, int>();
+    public Dictionary<String, int> colorAndCountDict = new Dictionary<string, int>(); //holds the number of balls on the level for each color
     public float timeScaleOfLevel = 1f;
     // Start is called before the first frame update
     void Start()
