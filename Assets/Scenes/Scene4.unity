@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Pink
+  colorName: Pink
 --- !u!54 &559988378
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Blue
+  colorName: Blue
 --- !u!54 &565135315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Pink
+  colorName: Pink
 --- !u!54 &698196456
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Blue
+  colorName: Blue
 --- !u!54 &1140622723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1551,7 +1551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Yellow
+  colorName: Yellow
 --- !u!54 &1372582718
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2864,7 +2864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Yellow
+  colorName: Yellow
 --- !u!54 &1979674392
 Rigidbody:
   m_ObjectHideFlags: 0

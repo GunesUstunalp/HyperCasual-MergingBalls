@@ -8,13 +8,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelBehavior : MonoBehaviour
 {
-    public Dictionary<String, int> materialNameAndCountDict = new Dictionary<string, int>();
-
+    public Dictionary<String, int> colorAndCountDict = new Dictionary<string, int>();
     public float timeScaleOfLevel = 1f;
     // Start is called before the first frame update
     void Start()
     {
-        CreateMaterialNameAndCountDict();
+        CreateColorAndCountDict();
         DisplayTimeScaleText();
     }
 
@@ -24,18 +23,18 @@ public class LevelBehavior : MonoBehaviour
         
     }
 
-    private void CreateMaterialNameAndCountDict()
+    private void CreateColorAndCountDict()
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            String keyMaterialName = transform.GetChild(i).GetComponent<SphereBehavior>().materialName;
-            if (!materialNameAndCountDict.ContainsKey(keyMaterialName))
+            String keyMaterialName = transform.GetChild(i).GetComponent<SphereBehavior>().colorName;
+            if (!colorAndCountDict.ContainsKey(keyMaterialName))
             {
-                materialNameAndCountDict.Add(keyMaterialName,1);
+                colorAndCountDict.Add(keyMaterialName,1);
             }
             else
             {
-                materialNameAndCountDict[keyMaterialName]++;
+                colorAndCountDict[keyMaterialName]++;
             }
         }
     }
@@ -57,7 +56,7 @@ public class LevelBehavior : MonoBehaviour
 
     public void CheckIfLevelWon()
     {
-        if (materialNameAndCountDict.Count == 0)
+        if (colorAndCountDict.Count == 0)
         {
             DisplayWinText();
             transform.parent.Find("NextLevelButton").gameObject.SetActive(true);

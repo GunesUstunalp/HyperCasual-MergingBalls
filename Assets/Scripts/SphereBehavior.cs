@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SphereBehavior : MonoBehaviour
 {
-    public String materialName;
+    public String colorName;
     private bool inMotion = false;
     private bool isTarget = false;
     private bool isGameLost = false;
@@ -30,7 +30,7 @@ public class SphereBehavior : MonoBehaviour
 
     void OnSphereClicked(SphereBehavior clickedSphere)
     {
-        if (!isTarget && clickedSphere.materialName.Equals(materialName) )
+        if (!isTarget && clickedSphere.colorName.Equals(colorName) )
         {
             inMotion = true;
             destination = clickedSphere.transform.position;
@@ -62,13 +62,13 @@ public class SphereBehavior : MonoBehaviour
     {
         if (!isTarget)
         {
-            if (collision.gameObject.GetComponent<SphereBehavior>().materialName.Equals(materialName)) //The colliding sphere is the same color as 'this'
+            if (collision.gameObject.GetComponent<SphereBehavior>().colorName.Equals(colorName)) //The colliding sphere is the same color as 'this'
             {
-                GetComponentInParent<LevelBehavior>().materialNameAndCountDict[materialName]--;
+                GetComponentInParent<LevelBehavior>().colorAndCountDict[colorName]--;
                 
-                if (GetComponentInParent<LevelBehavior>().materialNameAndCountDict[materialName] == 1) //if the clicked sphere is the only one left of the clicked color
+                if (GetComponentInParent<LevelBehavior>().colorAndCountDict[colorName] == 1) //if the clicked sphere is the only one left of the clicked color
                 {
-                    GetComponentInParent<LevelBehavior>().materialNameAndCountDict.Remove(materialName);
+                    GetComponentInParent<LevelBehavior>().colorAndCountDict.Remove(colorName);
                     Destroy(collision.gameObject);
                     GetComponentInParent<LevelBehavior>().CheckIfLevelWon();
                 }

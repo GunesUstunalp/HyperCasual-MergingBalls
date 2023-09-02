@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Yellow
+  colorName: Yellow
 --- !u!54 &51757272
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Green
+  colorName: Green
 --- !u!54 &286486328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Red
+  colorName: Red
 --- !u!54 &331411100
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Blue
+  colorName: Blue
 --- !u!54 &565135315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2144,7 +2144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Red
+  colorName: Red
 --- !u!54 &616495909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2296,7 +2296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Red
+  colorName: Red
 --- !u!54 &685068081
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2448,7 +2448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Pink
+  colorName: Pink
 --- !u!54 &693145785
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2600,7 +2600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Green
+  colorName: Green
 --- !u!54 &698196456
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3199,7 +3199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Pink
+  colorName: Pink
 --- !u!54 &890416204
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3728,7 +3728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Green
+  colorName: Green
 --- !u!54 &1083106716
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3880,7 +3880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Blue
+  colorName: Blue
 --- !u!54 &1105350150
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4032,7 +4032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Blue
+  colorName: Blue
 --- !u!54 &1140622723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4184,7 +4184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Yellow
+  colorName: Yellow
 --- !u!54 &1427807995
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4901,7 +4901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Green
+  colorName: Green
 --- !u!54 &1836455969
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5118,7 +5118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Yellow
+  colorName: Yellow
 --- !u!54 &1951763835
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5270,7 +5270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7659f7006cac5c43907540437e96d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialName: Pink
+  colorName: Pink
 --- !u!54 &1997709258
 Rigidbody:
   m_ObjectHideFlags: 0
